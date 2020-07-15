@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispay Time</title>
+</head>
+<body>
+    <div>
+        <h2 id = "date"></h2>
+        <br><br>
+        <h4 id = "time"></h4>
+    </div>
+
+    <script>
+        var today = ['Sunay', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'][new Date().getDay()]
+        var date = document.getElementById("date").innerText = `Today is :${today}`
+
+        var time = document.getElementById("time").innerText =`Current time is :${new Date().getHours() + ":" +new Date().getMinutes() + ":" +new Date().getSeconds()}`
+    </script>
+</body>
+</html>

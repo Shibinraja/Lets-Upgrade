@@ -1,0 +1,129 @@
+<!Doctype html>
+<html>
+<head>
+<title>Website</title>
+<link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet"> 
+<style>
+body{
+padding:0px;
+margin:0px;
+
+}
+
+.header{
+background-color:yellow;
+width:100%;
+height:54px;
+}
+
+.logo{																																													
+width:100%;
+}
+
+.menu{
+float:right;
+}
+
+.menu>ul{
+list-style:none;
+}
+
+.menu>ul>li{
+display:inline;
+margin-right:25px;
+}
+
+.menu>ul>li>a{
+color:green;
+}
+
+.menu>ul>li>a:hover{
+background-color:blue;
+}
+
+.content{
+float:left;
+width:33%;
+}
+
+#print{
+padding-left:14px;
+padding-top:4px;
+margin-left:200px
+}
+
+.banner{
+
+width:100%;
+overflow:hidden; 
+}
+
+.banner>img{
+width:100%;
+float:left;
+margin-top:-4px;
+}
+
+.tag{
+position:absolute;
+color:red;
+margin-top:647px;
+float:left;
+font-size:25px;
+font-family:'Caveat',cursive;
+}
+
+@media only screen and (max-width:600px){
+ .header{
+background-color:orange;}
+
+ .menu>ul>li>a:hover{
+background-color:pink;
+}
+}
+
+</style>
+
+</head>
+<body>
+<div class="header">
+	<div class="logo"><img src = "http://placehold.it/50X50;">
+		<div class="menu">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Help</a></li>
+			</ul>
+		</div>
+	</div>
+</div>	
+
+<div class="banner">
+<img src = "jok.jpg"></img>
+	<div class="tag">Always Put a Happy Face</div>
+</div>
+
+<div class="para">
+	<div class="content">
+		<p>  God of War[a] is an action-adventure hack and slash video game developed by Santa Monica Studio and published by Sony Interactive Entertainment (SIE). Released on April 20, 2018, for the PlayStation 4 (PS4), it is the eighth installment in the God of War series, the eighth chronologically, and the sequel to 2010's God of War III. Unlike previous games, which were loosely based on Greek mythology, this installment is rooted in Norse mythology, with the majority of it set in ancient Norway in the realm of Midgard. For the first time in the series, there are two protagonists: Kratos, the former Greek God of War who remains the only playable character, and his young son Atreus; at times, the player may passively control him. Following the death of Kratos' second wife and Atreus' mother, they journey to fulfill her request that her ashes be spread at the highest peak of the nine realms. Kratos keeps his troubled past a secret from Atreus, who is unaware of his divine nature. Along their journey, they encounter monsters and gods of the Norse world.</p>
+	</div>
+	
+	<div class="content">
+		<p> Described by creative director Cory Barlog as a reimagining of the franchise, a major gameplay change is that Kratos makes prominent use of a magical battle axe instead of his signature double-chained blades. God of War also uses an over-the-shoulder free camera, with the game in one shot, as opposed to the fixed cinematic camera of the previous entries. This was the first time a three-dimensional AAA game utilized a one-shot camera. The game also includes role-playing video game elements, and Kratos' son Atreus provides assistance in combat. The majority of the original game's development team worked on God of War and designed it to be accessible and grounded. A separate short text-based game, A Call from the Wilds, was released in February 2018 and follows Atreus on his first adventure. </p>
+	</div>
+	
+	<div class="content">
+		<p> God of War received universal acclaim for its narrative, world design, art direction, music, graphics, characters, and combat system. Many reviewers felt it had successfully revitalized the series without losing the core identity of its predecessors. It received a number of perfect review scores, tying it with the original God of War (2005) as the highest-rated game in the series, as well as one of the highest-rated PlayStation 4 games of all time on the review aggregator Metacritic. Among other awards and nominations, God of War was awarded Game of the Year by numerous media outlets and award shows. The game performed well commercially, selling over five million copies within a month of its release and over 10 million by May 2019, making it one of the best-selling PlayStation 4 games. A novelization was released in August 2018, followed by a four-issue prequel comic series published from November 2018 to February 2019.</p>
+	</div>
+	
+	<button type="button" id = "print" onclick= "window.print()">Print</button>
+</div>
+
+
+<!-- <script>
+	function print() {
+		let button = document.getElementById("print")
+	}
+</script> -->
+</body>
+</html>
