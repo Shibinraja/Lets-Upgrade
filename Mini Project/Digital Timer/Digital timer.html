@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timer</title>
+    <link rel="stylesheet" href="Clock.css" />
+    <script src="timer.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-xl-4 my-4">
+
+                <h3 class="text-primary" style="color:black">Digital-Timer</h3>
+        <button class="btn btn-success" id="start" onclick="startTime()">START</button> <button
+            class="btn btn-danger" id="stop" value="" onclick="stopTime()">STOP</button> <button
+            class="btn btn-warning" id="reset" onclick="resetTime()">RESET</button>
+        <br /><br /><br />
+        <label for="appt" style="font-size:25px">Set Timer</label>
+        <input type="text" id="appt" style="font-size:25px; background-color:black; color:white ; width:100px;"
+            value="08:00" name="appt">
+        <br /><br /><br />
+        <input type="text" id="timer" value=""
+                style="font-size:25px; background-color:black; color:white ; width:210px; margin-right:150px; padding-left:30px; border:5px SOLID purple;"></input>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
