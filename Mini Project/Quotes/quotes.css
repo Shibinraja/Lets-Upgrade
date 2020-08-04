@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Pacifico&family=Playfair+Display:wght@800&display=swap');
+
+h1{
+    font-family: 'Caveat', cursive;
+
+    font-family: 'Pacifico', cursive;
+
+    font-family: 'Playfair Display', serif;
+
+   
+}
+
+.btn-mixed{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 59%, rgba(252,176,69,1) 100%);
+width:150px;
+}
+
+h3{
+    font-family: 'Caveat', cursive;
+    margin-top:120px
+    
+}
+
+p{
+    font-family: 'Caveat', cursive;
+
+    font-family: 'Pacifico', cursive;
+
+    font-family: 'Playfair Display', serif;
+    font-size:20px;
+    float:right;
+   
+}
